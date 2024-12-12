@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/myeonggeun/Library/CloudStorage/OneDrive-gwnu.ac.kr/강릉대/3학년 2학기/sensor_data_monitoring",
+      "program": "/Users/myeonggeun/Library/CloudStorage/OneDrive-gwnu.ac.kr/강릉대/3학년 2학기/sensor_data_monitoring/build/Debug/outDebug"
+    }
+  ]
+}

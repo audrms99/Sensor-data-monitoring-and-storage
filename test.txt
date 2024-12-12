@@ -1,0 +1,16 @@
+nextproject : 이진트리 구현
+
+주제 : 강릉은 강풍의 도시, 강한 바람이 불 때 밖을 나가면 강한 바람으로 인해 눈에 돌이 튈 수 있다.
+    어느 풍속 이상이 되면 나갈때 고글을 쓰도록 하는 프로그램을 작성할 것이다.
+
+mysql : brew services start mysql
+sql 실행법
+cd /usr/local/mysql/bin <-이건 굳이 안해도 된다.->
+./mysql -u root -p
+pw : audrms0622:)
+
+mysql compile -> gcc test.c -o test $(mysql_config --cflags) $(mysql_config --libs)
+gcc test.c -o test -I/usr/local/mysql-9.1.0-macos14-arm64/include -L/usr/local/mysql-9.1.0-macos14-arm64/lib -lmysqlclient -Wl,-rpath,/usr/local/mysql-9.1.0-macos14-arm64/lib
+
+
+sensordata -> 
